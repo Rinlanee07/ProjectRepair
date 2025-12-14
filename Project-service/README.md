@@ -39,3 +39,8 @@ env
 DATABASE_URL=postgresql://myuser:mypassword@localhost:5432/mydb
 NEXTAUTH_SECRET=aKYTEcCTbI+B7pBTdNNvFnVGvJWQludhGrxgHPNzITo=
 NEXTAUTH_URL=http://localhost:3001
+
+env.local
+NEXT_PUBLIC_API_URL=http://localhost:3001
+NEXTAUTH_SECRET=aKYTEcCTbI+B7pBTdNNvFnVGvJWQludhGrxgHPNzITo=
+
